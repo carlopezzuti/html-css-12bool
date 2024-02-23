@@ -1,0 +1,41 @@
+/* general */
+body {
+  margin: 10px auto 10px auto;
+}
+
+/* header */
+/* empty */
+
+/* main */
+.container {
+  background-color: pink;
+}
+
+[class^="col-"] {
+  position: relative;
+  height: 180px;
+  border: 1px solid black;
+}
+
+[class^="col-"] > span {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.height-auto {
+  height: auto;
+}
+
+.nest {
+  padding: 5px;
+}
+
+.nest > [class^="col-"] {
+  border: 1px solid white;
+  background-color: red;
+}
+
+/* footer */
+/* empty */
